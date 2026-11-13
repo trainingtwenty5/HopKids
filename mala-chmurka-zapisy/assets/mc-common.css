@@ -74,10 +74,9 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
 .logo{display:flex;align-items:center}
 .logo-mark{
-  display:block;width:108px;aspect-ratio:2.401;flex:none;
-  background-color:var(--brand-deep);
-  -webkit-mask:var(--logo-src) center/contain no-repeat;
-          mask:var(--logo-src) center/contain no-repeat;
+  display:block;flex:none;
+  font-family:var(--font-head);font-weight:700;font-size:1.44rem;line-height:1;
+  letter-spacing:-.01em;white-space:nowrap;color:var(--brand-deep);
 }
 /* Menu klienta zostaje w jednym rzędzie — tak jak było. Przy `nowrap` pozycje
    ściskają się i mieszczą; gdyby zawijały się zawsze, każdy klient dostałby
@@ -284,7 +283,7 @@ legend{font-family:var(--font-head);font-weight:600;font-size:.92rem;padding:0 6
 .site-footer a:hover{color:var(--sky)}
 .footer-inner{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:40px;padding-bottom:40px}
 .footer-inner ul{list-style:none;margin:0;padding:0}
-.footer-brand .footer-logo{width:168px;background-color:#fff;margin-bottom:18px}
+.footer-brand .footer-logo{font-size:1.9rem;color:#fff;margin-bottom:18px}
 .footer-tagline{font-family:var(--font-head);font-size:1.02rem;line-height:1.6;margin:0}
 .footer-nav li{margin-bottom:.5em}
 .footer-contact p{margin-bottom:.8em;font-size:.96rem}

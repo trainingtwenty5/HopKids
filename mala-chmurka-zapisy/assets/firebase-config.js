@@ -46,7 +46,8 @@ export const SDK = "https://www.gstatic.com/firebasejs/12.18.0";
 export const ADMIN_EMAILS = [
   'velorwr16@gmail.com',
   'malachmurka.leszno@gmail.com',
-  'buchar123@gmail.com'
+  'buchar123@gmail.com',
+  'admin@hopkids.pl'
 ];
 
 /* Czy adres z listy musi być potwierdzony (kliknięty link z maila)?
@@ -61,9 +62,8 @@ export const REQUIRE_VERIFIED_EMAIL = true;
    Ustawienia lokalu — te wartości można zmienić bez ruszania reszty kodu.
    ------------------------------------------------------------------------- */
 export const SETTINGS = {
-  brand:        "Mała Chmurka",
+  brand:        "HopKids",
   homeUrl:      "/",                       // dokąd wraca przycisk „Powrót"
-  logoUrl:      "/img/logo-full.svg",      // znak z oryginalnej strony (maska SVG)
 
   /* Katalog, w którym leżą pliki systemu zapisów — licząc od katalogu strony.
      TERAZ (lokalnie): pliki siedzą w podfolderze /mala-chmurka-zapisy/.

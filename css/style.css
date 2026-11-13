@@ -204,21 +204,23 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 
-/* Logo — oficjalny znak wczytany jako maska, dzięki czemu jego kolorem
-   steruje background-color (znak zmienia barwę po przewinięciu strony). */
+/* Logo — znak słowny: nazwa jest tekstem, nie plikiem SVG. Stoi wprost
+   w HTML (na podstronach bierze się z SETTINGS.brand), a tutaj dostaje krój,
+   wielkość i kolor — barwa zmienia się po przewinięciu strony. */
 .logo { display: flex; align-items: center; }
 .logo-mark {
   display: block;
-  width: 122px;
-  aspect-ratio: 2.401;   /* proporcje z pliku logo-full.svg */
   flex: none;
-  background-color: #fff;
-  transition: background-color .3s var(--ease), width .3s var(--ease);
-
-  -webkit-mask: url('../img/logo-full.svg') center / contain no-repeat;
-          mask: url('../img/logo-full.svg') center / contain no-repeat;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 1.62rem;
+  line-height: 1;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+  color: #fff;
+  transition: color .3s var(--ease), font-size .3s var(--ease);
 }
-.site-header.is-scrolled .logo-mark { background-color: var(--brand-deep); width: 108px; }
+.site-header.is-scrolled .logo-mark { color: var(--brand-deep); font-size: 1.44rem; }
 
 /* Nawigacja */
 /* Menu klienta zostaje w jednym rzędzie — tak jak było. Przy `nowrap` pozycje
@@ -912,7 +914,7 @@ body.has-admin-nav .nav ul { flex-wrap: wrap; justify-content: flex-end; row-gap
   gap: 40px;
   padding-bottom: 46px;
 }
-.footer-brand .footer-logo { width: 168px; background-color: #fff; margin-bottom: 18px; }
+.footer-brand .footer-logo { font-size: 1.9rem; color: #fff; margin-bottom: 18px; }
 .footer-tagline { font-family: var(--font-head); font-size: 1.02rem; line-height: 1.6; margin: 0; }
 .footer-nav li { margin-bottom: .5em; }
 .footer-contact p { margin-bottom: .8em; font-size: .96rem; }

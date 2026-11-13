@@ -276,8 +276,6 @@ export function backTarget(opts = {}) {
    opts.backTo  – nadpisuje cel przycisku powrotu (domyślnie strona główna)
    ========================================================================== */
 export function mountChrome(opts = {}) {
-  document.documentElement.style.setProperty('--logo-src', `url('${SETTINGS.logoUrl}')`);
-
   /* Po zalogowaniu wracamy tam, skąd ktoś kliknął — bez tego każde logowanie
      kończyło się na ekranie logowania i wyglądało, jakby nic się nie stało.
      `next` musi być ścieżką na naszej stronie; sprawdza to logowanie.html.
@@ -295,7 +293,7 @@ export function mountChrome(opts = {}) {
   header.innerHTML = `
     <div class="container header-inner">
       <a class="logo" href="${SETTINGS.homeUrl}" aria-label="${SETTINGS.brand} — strona główna">
-        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-mark" aria-hidden="true">${SETTINGS.brand}</span>
         <span class="sr-only">${SETTINGS.brand}</span>
       </a>
       <button class="nav-toggle" id="mcNavToggle" aria-expanded="false" aria-controls="mcNav" aria-label="Menu">
@@ -354,7 +352,7 @@ export function mountChrome(opts = {}) {
   footer.innerHTML = `
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo-mark footer-logo" aria-hidden="true"></span>
+        <span class="logo-mark footer-logo" aria-hidden="true">${SETTINGS.brand}</span>
         <p class="footer-tagline">Kameralna, naturalna bawialnia<br>i kawiarnia specialty w Lesznie.</p>
       </div>
       <nav class="footer-nav" aria-label="Menu w stopce">
@@ -482,20 +480,6 @@ export function mountChrome(opts = {}) {
   wireNavLogout();
   wireSkrotWejscie();
   watchAuth(updateNavAuth);
-
-  /* Gdyby pliku logo nie było pod podanym adresem — pokaż nazwę tekstem,
-     żeby nagłówek nigdy nie wyglądał na pusty. */
-  fetch(SETTINGS.logoUrl, { method: 'HEAD' }).then(r => { if (!r.ok) throw 0; }).catch(() => {
-    document.querySelectorAll('.logo-mark').forEach(el => {
-      el.style.mask = el.style.webkitMask = 'none';
-      el.style.background = 'none';
-      el.style.width = 'auto';
-      el.style.aspectRatio = 'auto';
-      el.style.font = '700 1.35rem/1 var(--font-head)';
-      el.style.color = el.classList.contains('footer-logo') ? '#fff' : 'var(--brand-deep)';
-      el.textContent = SETTINGS.brand;
-    });
-  });
 }
 
 /**
