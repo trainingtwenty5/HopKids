@@ -1,6 +1,6 @@
 # HopsKids — strona internetowa
 
-Strona wizytówka kameralnej bawialni i kawiarni **HopsKids** w Wrocławiu.
+Strona wizytówka kameralnej bawialni i kawiarni **HopsKids** we Wrocławiu.
 
 Zwykły HTML + CSS + JavaScript. Bez frameworków, bez procesu budowania,
 bez zależności instalowanych z npm.

@@ -66,7 +66,7 @@ Dane kontaktowe muszą być **identyczne** na stronie, w wizytówce, na Facebook
 - Facebook → Informacje → Witryna
 - Katalogi lokalne: Panorama Firm, PKT.pl, Zumi, Baza Firm
 - Portale wrocławskie (lokalne serwisy miejskie, grupy FB dla rodziców) — nawet jedna wzmianka z linkiem pomaga
-- Jeśli macie znajomych z firmami w Wrocławiu — wzajemna wzmianka na stronie działa
+- Jeśli macie znajomych z firmami we Wrocławiu — wzajemna wzmianka na stronie działa
 
 ---
 
@@ -90,7 +90,7 @@ Każda podstrona = własny `<title>`, własny opis, 300+ słów treści. Po doda
 
 Drobiazgi warte poprawy przy okazji:
 
-- **Blog / aktualności** — nawet 1 wpis miesięcznie („Co robić z dzieckiem w Wrocławiu, gdy pada")
+- **Blog / aktualności** — nawet 1 wpis miesięcznie („Co robić z dzieckiem we Wrocławiu, gdy pada")
   daje Google powód, żeby wracać na stronę
 - **Zdjęcia** — przekonwertuj `.jpg` na WebP, teraz ładują się wolniej niż mogłyby; szybkość
   to czynnik rankingowy

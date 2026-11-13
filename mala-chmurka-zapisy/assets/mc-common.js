@@ -353,7 +353,7 @@ export function mountChrome(opts = {}) {
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="logo-mark footer-logo" aria-hidden="true">${SETTINGS.brand}</span>
-        <p class="footer-tagline">Kameralna, naturalna bawialnia<br>i kawiarnia specialty w Wrocławiu.</p>
+        <p class="footer-tagline">Kameralna, naturalna bawialnia<br>i kawiarnia specialty we Wrocławiu.</p>
       </div>
       <nav class="footer-nav" aria-label="Menu w stopce">
         <h4>Strona</h4>

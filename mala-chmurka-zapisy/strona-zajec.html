@@ -173,7 +173,7 @@ async function init() {
   $('#time').textContent    = `${ev.start} – ${ev.end}`;
   $('#desc').innerHTML      = paras(ev.description || ev.shortDesc);
   $('#org').innerHTML       = paras(ev.organizerDesc ||
-    'HopsKids to kameralna, naturalna bawialnia i kawiarnia specialty w Wrocławiu. 120 m² miękkiej strefy zabawy dla dzieci 0–6 lat, cztery domki tematyczne i kawa dla dorosłych.');
+    'HopsKids to kameralna, naturalna bawialnia i kawiarnia specialty we Wrocławiu. 120 m² miękkiej strefy zabawy dla dzieci 0–6 lat, cztery domki tematyczne i kawa dla dorosłych.');
   if (ev.note) { $('#noteWrap').hidden = false; $('#note').innerHTML = paras(ev.note); }
 
   if (ev.arriveMinutes) $('#arrive').innerHTML = `Przyjdź <strong>${ev.arriveMinutes} minut</strong> przed zajęciami`;
