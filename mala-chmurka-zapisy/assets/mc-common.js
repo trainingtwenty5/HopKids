@@ -353,7 +353,7 @@ export function mountChrome(opts = {}) {
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="logo-mark footer-logo" aria-hidden="true">${SETTINGS.brand}</span>
-        <p class="footer-tagline">Kameralna, naturalna bawialnia<br>i kawiarnia specialty w Lesznie.</p>
+        <p class="footer-tagline">Kameralna, naturalna bawialnia<br>i kawiarnia specialty w Wrocławiu.</p>
       </div>
       <nav class="footer-nav" aria-label="Menu w stopce">
         <h4>Strona</h4>
@@ -371,7 +371,7 @@ export function mountChrome(opts = {}) {
       </nav>
       <div class="footer-contact">
         <h4>Kontakt</h4>
-        <p>${SETTINGS.address}<br>${SETTINGS.city}</p>
+        <p>${SETTINGS.company}<br>${SETTINGS.address}<br>${SETTINGS.city}</p>
         <p><a href="tel:${SETTINGS.phoneHref}">${SETTINGS.phone}</a></p>
         <p><a href="mailto:${SETTINGS.email}">${SETTINGS.email}</a></p>
         <p class="footer-social">
@@ -383,7 +383,7 @@ export function mountChrome(opts = {}) {
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© <span>${new Date().getFullYear()}</span> ${SETTINGS.brand}, Leszno. Wszelkie prawa zastrzeżone.</p>
+      <p>© <span>${new Date().getFullYear()}</span> ${SETTINGS.brand}, Wrocław. Wszelkie prawa zastrzeżone.</p>
     </div>`;
 
   /* Cofamy przez historię, żeby wrócić dokładnie tam, gdzie użytkownik był

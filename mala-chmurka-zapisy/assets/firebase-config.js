@@ -73,14 +73,15 @@ export const SETTINGS = {
   capacity:     6,                          // ile dzieci mieści się jednocześnie
   visitsBase:   266,                        // licznik odwiedzin startuje od tej liczby
 
-  phone:        "726 431 978",
-  phoneHref:    "+48726431978",
-  email:        "malachmurka.leszno@gmail.com",
-  address:      "ul. Armii Krajowej 15 (1. piętro)",
-  city:         "64-100 Leszno",
+  phone:        "505 849 404",
+  phoneHref:    "+48505849404",
+  email:        "admin@hopskids.pl",
+  company:      "Daniel Buchar",
+  address:      "ul. Edwarda Suchardy 4/8",
+  city:         "50-362 Wrocław",
 
   bankAccount:  "XXX XXXX XXX XXXX",       // <- podmień na prawdziwy numer konta
-  bankName:     "HopsKids, ul. Armii Krajowej 15, 64-100 Leszno",
+  bankName:     "Daniel Buchar, ul. Edwarda Suchardy 4/8, 50-362 Wrocław",
 
   instagram:    "https://www.instagram.com/malachmurka.leszno/",
   facebook:     "https://www.facebook.com/profile.php?id=61573206205142",

@@ -543,7 +543,7 @@ console.log('\n=== WEJŚCIE PRZY DRZWIACH W FINANSACH ===');
     source: 'walkin', status: 'accepted', paid: true, qty: dzieci.length,
     children: q.lines.map(l => ({ name: l.name, dob: l.dob, tier: l.tier, price: l.price })),
     tariff: q.tariff, base: q.base, total: q.total,
-    paymentMethod: 'Płatność na miejscu', phone: '726 431 978', email: ''
+    paymentMethod: 'Płatność na miejscu', phone: '505 849 404', email: ''
   };
   const txs = toTransactions({ bookings: [wejscie] });
   const zakres = { from: '2026-09-01', to: '2026-09-30' };

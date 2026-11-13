@@ -49,7 +49,7 @@ tego nie widać.
 
 ## Krok 3 — Wizytówka Google (dla bawialni ważniejsza niż sama strona)
 
-https://business.google.com — rodzice z Leszna szukają przez Mapy, nie przez wyszukiwarkę.
+https://business.google.com — rodzice z Wrocławia szukają przez Mapy, nie przez wyszukiwarkę.
 
 Uzupełnij komplet: kategoria „Centrum zabaw dla dzieci" + dodatkowa „Kawiarnia", adres, godziny
 (te same co na stronie!), telefon, **adres strony `https://hopskids.pl/`**, min. 10 zdjęć
@@ -65,8 +65,8 @@ Dane kontaktowe muszą być **identyczne** na stronie, w wizytówce, na Facebook
 - Instagram → bio → link do strony
 - Facebook → Informacje → Witryna
 - Katalogi lokalne: Panorama Firm, PKT.pl, Zumi, Baza Firm
-- Portale leszczyńskie (elka.pl, leszno.pl, lokalne grupy FB dla rodziców) — nawet jedna wzmianka z linkiem pomaga
-- Jeśli macie znajomych z firmami w Lesznie — wzajemna wzmianka na stronie działa
+- Portale wrocławskie (lokalne serwisy miejskie, grupy FB dla rodziców) — nawet jedna wzmianka z linkiem pomaga
+- Jeśli macie znajomych z firmami w Wrocławiu — wzajemna wzmianka na stronie działa
 
 ---
 
@@ -79,18 +79,18 @@ Rozbicie na osobne podstrony to najmocniejsza rzecz, jaką można zrobić dla SE
 
 | Podstrona | Na jakie zapytanie łapie |
 |---|---|
-| `/urodzinki/` | „urodziny dla dziecka Leszno", „sala urodzinowa Leszno" |
-| `/cennik/` | „bawialnia Leszno cennik" |
-| `/wynajem-sali/` | „sala do wynajęcia Leszno" |
-| `/warsztaty/` | „zajęcia dla dzieci Leszno" |
-| `/kawiarnia/` | „kawiarnia z kącikiem dla dzieci Leszno" |
+| `/urodzinki/` | „urodziny dla dziecka Wrocław", „sala urodzinowa Wrocław" |
+| `/cennik/` | „bawialnia Wrocław cennik" |
+| `/wynajem-sali/` | „sala do wynajęcia Wrocław" |
+| `/warsztaty/` | „zajęcia dla dzieci Wrocław" |
+| `/kawiarnia/` | „kawiarnia z kącikiem dla dzieci Wrocław" |
 
 Każda podstrona = własny `<title>`, własny opis, 300+ słów treści. Po dodaniu dopisz je do
 `sitemap.xml` (na dole pliku jest przygotowany komentarz z gotowym wzorem).
 
 Drobiazgi warte poprawy przy okazji:
 
-- **Blog / aktualności** — nawet 1 wpis miesięcznie („Co robić z dzieckiem w Lesznie, gdy pada")
+- **Blog / aktualności** — nawet 1 wpis miesięcznie („Co robić z dzieckiem w Wrocławiu, gdy pada")
   daje Google powód, żeby wracać na stronę
 - **Zdjęcia** — przekonwertuj `.jpg` na WebP, teraz ładują się wolniej niż mogłyby; szybkość
   to czynnik rankingowy

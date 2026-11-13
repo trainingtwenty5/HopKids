@@ -114,7 +114,7 @@ Dostęp mają dokładnie trzy adresy — są wpisane w `firestore.rules` (funkcj
 
 ```
 velorwr16@gmail.com
-malachmurka.leszno@gmail.com
+admin@hopskids.pl
 buchar123@gmail.com
 ```
 

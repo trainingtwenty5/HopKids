@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<title>Zajęcia — HopsKids Leszno</title>
+<title>Zajęcia — HopsKids Wrocław</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#3D5A78">
 <link rel="icon" href="/img/favicon.svg">
@@ -164,7 +164,7 @@ async function init() {
   } catch (e) { return fail('Nie udało się wczytać zajęć: ' + e.message); }
   if (!ev) return fail('Nie znaleźliśmy takich zajęć. Mogły zostać odwołane.');
 
-  document.title = `${ev.title} — HopsKids Leszno`;
+  document.title = `${ev.title} — HopsKids Wrocław`;
   $('#title').textContent   = ev.title;
   $('#badge').textContent   = ev.badge || 'zajęcia';
   $('#mDate').textContent   = longDate(ev.date);
@@ -173,7 +173,7 @@ async function init() {
   $('#time').textContent    = `${ev.start} – ${ev.end}`;
   $('#desc').innerHTML      = paras(ev.description || ev.shortDesc);
   $('#org').innerHTML       = paras(ev.organizerDesc ||
-    'HopsKids to kameralna, naturalna bawialnia i kawiarnia specialty w Lesznie. 120 m² miękkiej strefy zabawy dla dzieci 0–6 lat, cztery domki tematyczne i kawa dla dorosłych.');
+    'HopsKids to kameralna, naturalna bawialnia i kawiarnia specialty w Wrocławiu. 120 m² miękkiej strefy zabawy dla dzieci 0–6 lat, cztery domki tematyczne i kawa dla dorosłych.');
   if (ev.note) { $('#noteWrap').hidden = false; $('#note').innerHTML = paras(ev.note); }
 
   if (ev.arriveMinutes) $('#arrive').innerHTML = `Przyjdź <strong>${ev.arriveMinutes} minut</strong> przed zajęciami`;

@@ -1,6 +1,6 @@
 # HopsKids — strona internetowa
 
-Strona wizytówka kameralnej bawialni i kawiarni **HopsKids** w Lesznie.
+Strona wizytówka kameralnej bawialni i kawiarni **HopsKids** w Wrocławiu.
 
 Zwykły HTML + CSS + JavaScript. Bez frameworków, bez procesu budowania,
 bez zależności instalowanych z npm.
@@ -70,9 +70,9 @@ z grafiki na ferie, trzeba je zweryfikować i podmienić na stałe godziny.
 
 ## Dane kontaktowe użyte na stronie
 
-- ul. Armii Krajowej 15, 1. piętro, 64-100 Leszno
-- tel. 726 431 978
-- malachmurka.leszno@gmail.com
+- ul. Edwarda Suchardy 4/8, 50-362 Wrocław
+- tel. 505 849 404
+- admin@hopskids.pl
 - [Instagram](https://www.instagram.com/malachmurka.leszno/) ·
   [Facebook](https://www.facebook.com/profile.php?id=61573206205142)
 
