@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — galeria zdjęć zajęć (panel administratora)
+   HopsKids — galeria zdjęć zajęć (panel administratora)
 
    Co robi ten plik:
      • przyjmuje zdjęcia upuszczone myszką, wybrane z dysku albo wklejone

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — wspólne elementy podstron: nagłówek, pasek powrotu, stopka,
+   HopsKids — wspólne elementy podstron: nagłówek, pasek powrotu, stopka,
    powiadomienia i drobne helpery (daty, ceny, teksty).
    ========================================================================== */
 import { SETTINGS, appUrl } from './firebase-config.js';

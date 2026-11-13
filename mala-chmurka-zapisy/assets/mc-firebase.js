@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — wspólna inicjalizacja Firebase.
+   HopsKids — wspólna inicjalizacja Firebase.
    Ładuje SDK dynamicznie, żeby numer wersji był tylko w firebase-config.js.
    Użycie w podstronie:
        import { db, auth, F, A } from './assets/mc-firebase.js';

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — licznik na stronie głównej.
+   HopsKids — licznik na stronie głównej.
 
    WPIĘCIE: wystarczy jedna linijka w index.html, tuż przed </body>:
        <script type="module" src="/assets/mc-licznik.js"></script>

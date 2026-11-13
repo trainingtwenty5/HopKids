@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — okienko „Bawialnia nieczynna” na stronie głównej.
+   HopsKids — okienko „Bawialnia nieczynna” na stronie głównej.
 
    WPIĘCIE: jedna linijka w index.html, tuż przed </body>:
        <script type="module" src="/mala-chmurka-zapisy/assets/mc-nieczynne.js"></script>

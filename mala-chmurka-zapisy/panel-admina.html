@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<title>Panel admina — Mała Chmurka</title>
+<title>Panel admina — HopsKids</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#3D5A78">
@@ -391,7 +391,7 @@
 
   /* ---- zakładka 7: finanse ----
      Kafelki z liczbą, plakietką zmiany i wykresem — układ znany z paneli
-     sprzedażowych, ale w kolorach i krojach Małej Chmurki: kremowe tło,
+     sprzedażowych, ale w kolorach i krojach HopsKids: kremowe tło,
      Quicksand w nagłówkach, morska linia bieżącego okresu i błękitna
      poprzedniego. */
   .fin-filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
@@ -2535,7 +2535,7 @@ $('#exportRank').onclick = () => {
   const csv = '﻿' + rows.map(r => r.map(v => `"${String(v ?? '').replace(/"/g,'""')}"`).join(';')).join('\n');
   const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
   const a = document.createElement('a');
-  a.href = url; a.download = `ranking-mala-chmurka-${todayISO()}.csv`; a.click();
+  a.href = url; a.download = `ranking-hopskids-${todayISO()}.csv`; a.click();
   URL.revokeObjectURL(url);
 };
 
@@ -4416,7 +4416,7 @@ $('#plExport').onclick = () => {
   const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
   const a = document.createElement('a');
   a.href = url;
-  a.download = `czas-zabawy-mala-chmurka-${todayISO()}.csv`;
+  a.download = `czas-zabawy-hopskids-${todayISO()}.csv`;
   a.click();
   URL.revokeObjectURL(url);
 };
@@ -4861,7 +4861,7 @@ $('#finExport').onclick = () => {
   const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
   const a = document.createElement('a');
   a.href = url;
-  a.download = `finanse-mala-chmurka-${now.from}_${now.to}.csv`;
+  a.download = `finanse-hopskids-${now.from}_${now.to}.csv`;
   a.click();
   URL.revokeObjectURL(url);
   toast(`Pobrano ${rows.length - 1} pozycji z okresu ${shortDate(now.from)} – ${shortDate(now.to)}.`);

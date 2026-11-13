@@ -1,6 +1,6 @@
-# Mała Chmurka — strona internetowa
+# HopsKids — strona internetowa
 
-Strona wizytówka kameralnej bawialni i kawiarni **Mała Chmurka** w Lesznie.
+Strona wizytówka kameralnej bawialni i kawiarni **HopsKids** w Lesznie.
 
 Zwykły HTML + CSS + JavaScript. Bez frameworków, bez procesu budowania,
 bez zależności instalowanych z npm.

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy zakładki „Czas zabawy"
+   HopsKids — testy zakładki „Czas zabawy"
    --------------------------------------------------------------------------
    Sprawdzają wspólną listę pobytów (zajęcia + rezerwacje + wejścia z ulicy)
    oraz odliczanie czasu w dół.

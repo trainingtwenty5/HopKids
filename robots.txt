@@ -5,4 +5,4 @@ Allow: /
 Disallow: /cgi-bin/
 Disallow: /*?*utm_
 
-Sitemap: https://malachmurkaleszno.pl/sitemap.xml
+Sitemap: https://hopskids.pl/sitemap.xml

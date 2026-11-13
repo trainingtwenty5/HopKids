@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy rankingu wizyt w bawialni
+   HopsKids — testy rankingu wizyt w bawialni
    --------------------------------------------------------------------------
    Ranking ma liczyć odwiedziny tak samo, bez znaczenia czy dziecko przyszło
    na zajęcia, czy po prostu do bawialni. Tu sprawdzamy przełożenie rezerwacji

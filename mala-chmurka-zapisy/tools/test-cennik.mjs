@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy cennika bawialni
+   HopsKids — testy cennika bawialni
    --------------------------------------------------------------------------
    Sprawdzają, czy cena nalicza się dokładnie tak, jak stoi na stronie:
    taryfa dnia, święta, progi wiekowe i zniżka dla rodzeństwa.

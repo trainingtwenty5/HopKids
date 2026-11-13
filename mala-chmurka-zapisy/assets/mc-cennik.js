@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — cennik wstępu do bawialni i naliczanie ceny.
+   HopsKids — cennik wstępu do bawialni i naliczanie ceny.
 
    Czyste funkcje, bez bazy i bez DOM-u — dzięki temu ten sam kod liczy cenę
    w formularzu rezerwacji, w panelu admina i w testach (tools/test-cennik.mjs).

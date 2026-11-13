@@ -1,4 +1,4 @@
-# Mała Chmurka — wdrożenie SEO
+# HopsKids — wdrożenie SEO
 
 Stan wyjściowy (sprawdzony 4.08.2026): strona działa poprawnie, ale **nie ma jej w indeksie Google**.
 Brakuje `robots.txt` i `sitemap.xml` (oba zwracają 404), nie ma danych strukturalnych, nie ma linków
@@ -26,18 +26,18 @@ Wszystkie trzy pliki trafiają do **katalogu głównego** strony (tam, gdzie le�
 
 Sprawdzenie po wgraniu — te dwa adresy muszą otwierać treść, a nie pustą stronę:
 
-- https://malachmurkaleszno.pl/robots.txt
-- https://malachmurkaleszno.pl/sitemap.xml
+- https://hopskids.pl/robots.txt
+- https://hopskids.pl/sitemap.xml
 
 ---
 
 ## Krok 2 — Google Search Console (to jest ten krok, który realnie odpala indeksowanie)
 
 1. Wejdź na https://search.google.com/search-console
-2. Dodaj zasób typu **Domena** → `malachmurkaleszno.pl`
+2. Dodaj zasób typu **Domena** → `hopskids.pl`
 3. Potwierdź własność rekordem TXT w DNS (panel firmy, u której masz domenę)
 4. Menu **Mapy witryny** → wpisz `sitemap.xml` → Prześlij
-5. Pasek **Sprawdzenie adresu URL** u góry → wklej `https://malachmurkaleszno.pl/` → **Poproś o zindeksowanie**
+5. Pasek **Sprawdzenie adresu URL** u góry → wklej `https://hopskids.pl/` → **Poproś o zindeksowanie**
 
 Czas do pojawienia się w wynikach: zwykle **3 dni – 2 tygodnie**. Wcześniej `site:` będzie pusty i to normalne.
 
@@ -52,7 +52,7 @@ tego nie widać.
 https://business.google.com — rodzice z Leszna szukają przez Mapy, nie przez wyszukiwarkę.
 
 Uzupełnij komplet: kategoria „Centrum zabaw dla dzieci" + dodatkowa „Kawiarnia", adres, godziny
-(te same co na stronie!), telefon, **adres strony `https://malachmurkaleszno.pl/`**, min. 10 zdjęć
+(te same co na stronie!), telefon, **adres strony `https://hopskids.pl/`**, min. 10 zdjęć
 wnętrza. Weryfikacja idzie pocztą lub filmikiem — potrafi zająć 1–2 tygodnie, więc warto zacząć teraz.
 
 Dane kontaktowe muszą być **identyczne** na stronie, w wizytówce, na Facebooku i Instagramie
@@ -107,4 +107,4 @@ Drobiazgi warte poprawy przy okazji:
 | Czy schema nie ma błędów | https://validator.schema.org/ |
 | Czy podgląd linku na FB działa | https://developers.facebook.com/tools/debug/ |
 | Szybkość i Core Web Vitals | https://pagespeed.web.dev/ |
-| Czy strona jest już w indeksie | wpisz w Google: `site:malachmurkaleszno.pl` |
+| Czy strona jest już w indeksie | wpisz w Google: `site:hopskids.pl` |

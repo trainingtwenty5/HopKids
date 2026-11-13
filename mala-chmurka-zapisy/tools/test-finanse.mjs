@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy zakładki „Finanse"
+   HopsKids — testy zakładki „Finanse"
    --------------------------------------------------------------------------
    Panel finansowy ma jedną odpowiedzialność: powiedzieć prawdę o pieniądzach.
    Sprawdzamy więc rzeczy, w których najłatwiej o cichą pomyłkę:

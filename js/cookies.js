@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — zgody na ciasteczka (Google Consent Mode v2)
+   HopsKids — zgody na ciasteczka (Google Consent Mode v2)
 
    Wariant „basic": skrypt Google Analytics wczytuje się dopiero wtedy,
    gdy ktoś zgodzi się na analitykę. Bez zgody do Google nie idzie żadne

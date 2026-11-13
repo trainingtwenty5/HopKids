@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — godziny otwarcia prosto z wizytówki Google.
+   HopsKids — godziny otwarcia prosto z wizytówki Google.
 
    PO CO TO JEST
    ----------------------------------------------------------------------

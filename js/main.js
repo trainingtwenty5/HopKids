@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — skrypty strony
+   HopsKids — skrypty strony
    Czysty JavaScript, bez zależności zewnętrznych.
    ========================================================================== */
 (function () {

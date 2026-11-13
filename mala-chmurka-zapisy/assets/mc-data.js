@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — warstwa dostępu do bazy Firestore.
+   HopsKids — warstwa dostępu do bazy Firestore.
    Cała logika zapisu/odczytu jest tutaj, żeby podstrony zostały czytelne.
 
    STRUKTURA BAZY

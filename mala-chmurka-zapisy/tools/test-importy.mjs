@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — czy strony importują wszystko, czego używają
+   HopsKids — czy strony importują wszystko, czego używają
    --------------------------------------------------------------------------
    Ten test powstał po konkretnej wpadce: „Odrzuć" w zakładce 5 przestało
    otwierać okienko z powodem odmowy. Kod wołał `askText(...)`, ale nikt nie

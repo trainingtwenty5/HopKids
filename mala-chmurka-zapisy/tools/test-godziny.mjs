@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy godzin otwarcia z wizytówki Google
+   HopsKids — testy godzin otwarcia z wizytówki Google
    --------------------------------------------------------------------------
    Godziny przestały być wpisane w kod: bierze je `assets/mc-godziny.js`
    z wizytówki Google i przepisuje do SETTINGS.openingHours, z których żyje

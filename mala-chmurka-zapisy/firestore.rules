@@ -1,7 +1,7 @@
 rules_version = '2';
 
 /* ==========================================================================
-   Mała Chmurka — reguły bezpieczeństwa Firestore
+   HopsKids — reguły bezpieczeństwa Firestore
    --------------------------------------------------------------------------
    TO JEST JEDYNE PRAWDZIWE ZABEZPIECZENIE PANELU.
    Ukrycie panelu w HTML/JavaScript niczego nie chroni — każdy może otworzyć

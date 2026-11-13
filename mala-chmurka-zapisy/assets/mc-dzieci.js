@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — pamięć dzieci.
+   HopsKids — pamięć dzieci.
 
    Po co: jeżeli ktoś raz zapisał Zosię na zajęcia, przy kolejnym zapisie
    nie chcemy go pytać o to samo. Formularz podpowiada dzieci, które już zna,

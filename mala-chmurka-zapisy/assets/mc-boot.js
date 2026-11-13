@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — bezpiecznik startu panelu.
+   HopsKids — bezpiecznik startu panelu.
 
    DLACZEGO TO NIE JEST MODUŁ
    --------------------------------------------------------------------------
@@ -77,7 +77,7 @@
           '(<code>www.gstatic.com</code>). Blokuje je zwykle rozszerzenie przeglądarki — ' +
           'uBlock, Adblock, Ghostery, „ochrona przed śledzeniem" — albo filtr sieci firmowej.</p>' +
           '<p class="hint">Sprawdź w oknie prywatnym z wyłączonymi rozszerzeniami albo na innej sieci ' +
-          '(np. transmisja z telefonu). Jeśli tam działa — dodaj <code>malachmurkaleszno.pl</code> ' +
+          '(np. transmisja z telefonu). Jeśli tam działa — dodaj <code>hopskids.pl</code> ' +
           'do wyjątków w rozszerzeniu.</p>'
         : '<p class="hint">Biblioteki Google są osiągalne, więc najpewniej to chwilowa przerwa ' +
           'w połączeniu albo stara wersja strony w pamięci przeglądarki. ' +

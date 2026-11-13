@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy formularza zapisu (bez przeglądarki i bez bazy)
+   HopsKids — testy formularza zapisu (bez przeglądarki i bez bazy)
    --------------------------------------------------------------------------
    Wycinają prawdziwe funkcje z pliku `zapisz-sie-na-zajecia.html` i sprawdzają,
    co dokładnie wypluwają:

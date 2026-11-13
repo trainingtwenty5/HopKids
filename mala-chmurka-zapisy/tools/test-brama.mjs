@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy bramy uprawnień
+   HopsKids — testy bramy uprawnień
    --------------------------------------------------------------------------
    Odtwarzają awarię, przez którą panel stał w nieskończoność na komunikacie
    „Sprawdzam uprawnienia…": odświeżenie tokenu chodzi po sieci i potrafi

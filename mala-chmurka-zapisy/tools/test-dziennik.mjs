@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy dziennika zmian
+   HopsKids — testy dziennika zmian
    --------------------------------------------------------------------------
    Dziennik ma odpowiadać na pytanie „kto, co i kiedy zmienił”, i to takim
    językiem, jakim mówi obsługa — nie nazwami pól z bazy. Trzy rzeczy łatwo

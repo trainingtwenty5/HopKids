@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — zakładka „Finanse" w panelu admina.
+   HopsKids — zakładka „Finanse" w panelu admina.
    --------------------------------------------------------------------------
    Dwa zupełnie różne źródła pieniędzy — zapisy na zajęcia (`registrations`)
    i rezerwacje wstępu do bawialni (`bookings`, razem z wejściami z ulicy) —

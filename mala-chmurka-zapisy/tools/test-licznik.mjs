@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy licznika dzieci w bawialni
+   HopsKids — testy licznika dzieci w bawialni
    --------------------------------------------------------------------------
    Licznik ma sumować DZIECI, a nie zgłoszenia, i brać pod uwagę dwa źródła:
    zapisy na zajęcia z potwierdzoną obecnością oraz zaakceptowane rezerwacje

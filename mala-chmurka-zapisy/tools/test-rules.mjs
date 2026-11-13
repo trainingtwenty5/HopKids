@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy reguł bezpieczeństwa Firestore
+   HopsKids — testy reguł bezpieczeństwa Firestore
    --------------------------------------------------------------------------
    Sprawdzają na emulatorze, czy firestore.rules faktycznie robi to, co ma:
    zajęcia czyta każdy, ale tworzy/zmienia/usuwa je wyłącznie administrator.

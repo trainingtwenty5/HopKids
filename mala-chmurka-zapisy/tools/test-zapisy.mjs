@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy zamykania zapisów i pamięci dzieci
+   HopsKids — testy zamykania zapisów i pamięci dzieci
    --------------------------------------------------------------------------
    Dwie rzeczy, które łatwo zepsuć przy kolejnych zmianach:
      • zajęcia, których termin minął, nie mogą przyjmować zapisów — i mają

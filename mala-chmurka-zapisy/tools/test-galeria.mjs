@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — testy galerii zdjęć zajęć
+   HopsKids — testy galerii zdjęć zajęć
    --------------------------------------------------------------------------
    Sprawdzają to, co przy zdjęciach najłatwiej zepsuć:
      • które pliki w ogóle wpuszczamy (format, waga, limit sztuk),

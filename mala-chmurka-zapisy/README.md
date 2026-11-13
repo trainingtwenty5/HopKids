@@ -1,6 +1,6 @@
-# Mała Chmurka — system zapisów na zajęcia + panel admina
+# HopsKids — system zapisów na zajęcia + panel admina
 
-Kompletny system rezerwacji dla malachmurkaleszno.pl oparty na **Firebase (Firestore + Auth)**.
+Kompletny system rezerwacji dla hopskids.pl oparty na **Firebase (Firestore + Auth)**.
 Nie potrzebujesz serwera ani backendu — wszystko to statyczne pliki + baza w chmurze Google.
 
 **Stan na dziś: wszystko jest wpięte lokalnie.** Pliki leżą w podfolderze
@@ -30,7 +30,7 @@ patrz [„Uruchomienie lokalne”](#uruchomienie-lokalne) i [„Publikacja”](#
 | `assets/mc-licznik.js` | Licznik dzieci na stronie głównej (jedna linijka w index.html). |
 | **`assets/mc-godziny.js`** | **Godziny otwarcia pobierane z wizytówki Google — jedno źródło dla całej strony.** |
 | **`assets/mc-nieczynne.js`** | **Okienko „Bawialnia nieczynna" na stronie głównej (dni z zakładki 3).** |
-| `assets/mc-common.css/.js` | Wspólny wygląd: navbar i stopka 1:1 jak na malachmurkaleszno.pl. |
+| `assets/mc-common.css/.js` | Wspólny wygląd: navbar i stopka 1:1 jak na hopskids.pl. |
 | `assets/mc-data.js` | Cała logika bazy danych. |
 | **`assets/mc-cennik.js`** | **Cennik bawialni: taryfy, święta, progi wiekowe, zniżki.** |
 | **`assets/mc-dzieci.js`** | **Pamięć dzieci — podpowiedzi przy kolejnym zapisie.** |
@@ -91,7 +91,7 @@ Zostaje włączyć to, z czego korzysta system:
 1. **Build → Firestore Database → Utwórz bazę** → tryb produkcyjny → lokalizacja
    `eur3` lub `europe-central2`.
 2. **Build → Authentication → Sign-in method** → włącz **E-mail/hasło** oraz **Google**.
-3. **Authentication → Settings → Authorized domains** → dopisz `malachmurkaleszno.pl`.
+3. **Authentication → Settings → Authorized domains** → dopisz `hopskids.pl`.
 
 > Klucz `apiKey` w Firebase **nie jest hasłem** — jest publiczny z założenia
 > i widać go w kodzie każdej strony webowej. Bezpieczeństwa pilnują

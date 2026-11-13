@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — konfiguracja Firebase
+   HopsKids — konfiguracja Firebase
    --------------------------------------------------------------------------
    Poniższy obiekt FIREBASE_CONFIG jest przepisany 1:1 z Twojego index.html
    (projekt „mala-chmurka-leszno"). To NIE jest sekret — klucz `apiKey` w
@@ -80,7 +80,7 @@ export const SETTINGS = {
   city:         "64-100 Leszno",
 
   bankAccount:  "XXX XXXX XXX XXXX",       // <- podmień na prawdziwy numer konta
-  bankName:     "Mała Chmurka, ul. Armii Krajowej 15, 64-100 Leszno",
+  bankName:     "HopsKids, ul. Armii Krajowej 15, 64-100 Leszno",
 
   instagram:    "https://www.instagram.com/malachmurka.leszno/",
   facebook:     "https://www.facebook.com/profile.php?id=61573206205142",
@@ -138,7 +138,7 @@ export const SETTINGS = {
      5. KONIECZNIE ogranicz klucz, inaczej ktoś obcy wykorzysta go na Twój
         rachunek:
           • „Application restrictions” → Websites → dodaj
-            https://malachmurkaleszno.pl/*  oraz  https://www.malachmurkaleszno.pl/*
+            https://hopskids.pl/*  oraz  https://www.hopskids.pl/*
           • „API restrictions” → Restrict key → zaznacz tylko Places API (New)
      6. Wklej klucz niżej i opublikuj stronę.
 
@@ -147,7 +147,7 @@ export const SETTINGS = {
    poza odczytem publicznych danych wizytówki.
 
    `placeId` to stały identyfikator lokalu w Google. Ten poniżej jest już
-   sprawdzony (rozwija się do „Mała Chmurka - naturalna bawialnia”). Gdyby
+   sprawdzony (rozwija się do „HopsKids - naturalna bawialnia”). Gdyby
    kiedyś trzeba było go odszukać na nowo: https://developers.google.com/maps/documentation/places/web-service/place-id
    ========================================================================== */
 export const GOOGLE_PLACE = {

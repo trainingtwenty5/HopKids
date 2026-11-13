@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Mała Chmurka — jednorazowe nadanie uprawnienia administratora
+   HopsKids — jednorazowe nadanie uprawnienia administratora
    (Firebase Custom Claim  admin: true)
    --------------------------------------------------------------------------
    PO CO TO JEST
