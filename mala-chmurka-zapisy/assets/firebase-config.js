@@ -47,7 +47,7 @@ export const ADMIN_EMAILS = [
   'velorwr16@gmail.com',
   'malachmurka.leszno@gmail.com',
   'buchar123@gmail.com',
-  'admin@hopkids.pl'
+  'admin@hopskids.pl'
 ];
 
 /* Czy adres z listy musi być potwierdzony (kliknięty link z maila)?
@@ -62,7 +62,7 @@ export const REQUIRE_VERIFIED_EMAIL = true;
    Ustawienia lokalu — te wartości można zmienić bez ruszania reszty kodu.
    ------------------------------------------------------------------------- */
 export const SETTINGS = {
-  brand:        "HopKids",
+  brand:        "HopsKids",
   homeUrl:      "/",                       // dokąd wraca przycisk „Powrót"
 
   /* Katalog, w którym leżą pliki systemu zapisów — licząc od katalogu strony.

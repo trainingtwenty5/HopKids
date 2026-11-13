@@ -38,7 +38,7 @@ service cloud.firestore {
         'velorwr16@gmail.com',
         'malachmurka.leszno@gmail.com',
         'buchar123@gmail.com',
-        'admin@hopkids.pl'
+        'admin@hopskids.pl'
       ];
     }
 
